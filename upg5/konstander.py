@@ -3,9 +3,6 @@ import math
 x0 = 0
 dx = 1/1000
 L = math.pi
-    # för konvergens
-ddx = 9/10
-xMax = 600
 
 m = 100
 w = 1
@@ -38,4 +35,4 @@ for i in range(len(numbers)):
 count = 0
 def branding(count):
     return 'Heart%r.PNG' %(id[count])
-outpath = '/home/vegan_banana/code/python/fysikinlamning/upg5/pictures/'
+outpath = ' (file path) /upg5/pictures/'
