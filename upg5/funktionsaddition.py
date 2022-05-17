@@ -7,7 +7,7 @@ from PIL import Image
 L = k.L
 
 def f(x):
-    return x*(x-2)**2 *math.sin(x-L)
+    return -(math.sqrt(abs(math.cos(x-math.pi/2)))*math.cos(100*(x-math.pi/2))  -3 -math.sqrt(abs(x-math.pi/2)))
 def g(x,n):
     return f(x)*math.sin(2*n*math.pi*x/L)
 def h(x,n):
